@@ -1,6 +1,8 @@
 # netflix-clone
 Netflix Clone with Recommendation System
 
+[](https://youtu.be/CbPIEyo4prA)
+
 This is MERN Stack Netflix-Clone with Login,Register and Recommendation System.
 
 React, Material-UI :- Used for the front-end development. Sliders and Carousels have been built from scratch with React without external npm package.
