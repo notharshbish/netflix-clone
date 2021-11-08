@@ -1,0 +1,209 @@
+
+.home_page { 
+    background-image : linear-gradient(to bottom , black ,rgba(23,23,23,.1)) ; 
+}
+
+.header_categories_item {
+    margin : 15px ; 
+    font-size : 14.6px ;
+    letter-spacing: 0.32px;
+    color  :  rgba(180,180,180) ;
+    cursor : pointer ; 
+    font-family : sans-serif ; 
+}
+
+.header_categories_item:hover {
+    color :  white ; 
+}
+
+.search_box { 
+    order : 1 ; 
+    width : 40% ; 
+    display : flex ; 
+}
+
+@keyframes stretch {
+    0% {
+        width : 0% ;
+        background-color:  black ; 
+    } 
+    100% {
+        width : 100% ;
+        background-color: red   ;
+    }
+}
+
+.search_box_input {
+    outline : none ; 
+    border: none ;
+    font-size:  15px;
+    border-radius: 12px ;
+    /* border-block-end : 1px solid black  ;  */
+    writing-mode: horizontal-tb;
+    transform:  scaleX(0);
+    transform-origin: right ; 
+    background: rgba(72, 73, 72, 0.1);
+    z-index : 100 ; 
+    color : white ; 
+    transition: all 250ms;
+}
+
+.search_box_input_select  {
+    transform:  scaleX(1)
+}
+
+.search_box {
+    order :  1 ; 
+    width : fit-content ; 
+}
+
+.header_types_cover { 
+    width : 100% ; 
+    display : flex ; 
+    justify-content : space-evenly  ; 
+    align-items: center;
+}
+
+.profile_div {
+    order : 5 ; 
+    width : 40px ; 
+    height : 40px ; 
+}
+
+.header_types_cover div:last-child {
+    margin : 0 13px 0 0  ; 
+}
+.header_types_cover div  {
+    cursor:  pointer;
+    font-size: 14.6px;
+    color : rgba(180,180,180) ; 
+}
+
+.header_types_cover div:hover {
+    color : white ; 
+}
+
+.profile_icon {
+    width : 100% ; 
+    height : 100% ; 
+    object-fit:  contain;
+}
+
+.search_box button {
+    flex : 0 ; 
+}
+
+
+.overlay {
+    position : absolute  ;
+    width : 100% ; 
+    height : 100% ; 
+    background : linear-gradient(to right,#181818 10%,rgba(23,23,23,1) 20%,rgba(23,23,23,.97) 25%,rgba(23,23,23,.8) 35%,rgba(23,23,23,.7) 40%,rgba(23,23,23,.6) 45%,rgba(23,23,23,.4) 50%,rgba(23,23,23,.18) 55%,rgba(23,23,23,.18) 60%,rgba(23,23,23,.15) 65%,rgba(23,23,23,.13) 70% , rgba(23,23,23,.1) 90%,rgba(23,23,23,.06) 95%,rgba(23,23,23,0) 100%);
+    z-index : -1; 
+}
+
+
+.image_slider_container {
+    position : absolute ;
+    width : 100% ; 
+    height : 100% ;  
+}
+
+.image_slider_container__body {
+    width : 100% ; 
+    height : 100% ;  
+}
+
+.image_slider_container__bnf {
+    position: absolute ;
+    height : fit-content; 
+    width : 100% ; 
+    top : 55% ; 
+    display :flex ; 
+    z-index: 100 ;
+    justify-content: space-between;
+}
+
+.image_slider_container__bnf--back {
+    background-color : rgba(240,240,240,0.05) ; 
+}
+
+.image_slider_container__bnf--next {
+    background-color : rgba(240,240,240,0.3) ;    
+}
+
+.bnf-relative { 
+    position : relative ; 
+    width : 100% ; 
+    height : 100% ; 
+    display: flex;
+    margin : 0 8px ; 
+    justify-content: space-between;
+}
+
+.bnf-relative > div {
+    display : flex ; 
+    justify-content: center; 
+    align-items: center;
+    border-radius : 50% ; 
+    cursor:  pointer ;
+}
+
+.image_slider_container__track {
+    height : 100% ; 
+    position : absolute ; 
+    top : 0 ; 
+    bottom : 0 ;  
+    left : 0 ; 
+    right : 0 ; 
+    padding : 0 0 0 0 ; 
+    display : flex ; 
+    overflow-x: hidden;
+}
+
+.image_slider_container__track > li {
+    position: absolute;
+    width  : 100% ; 
+    height : 100% ; 
+}
+
+.current-slide {
+    opacity : 1 ; 
+}
+
+.image-slide {
+    opacity : 0.03 ; 
+    transform : translateX(100%) ; 
+    transition : all 800ms ease-in-out ; 
+}
+
+.image_slider_container__slider_dots {
+    display:  flex ;
+    width : 100% ; 
+    position : absolute ; 
+    top : 88% ; 
+    align-items: center;
+    color : white ; 
+    height : fit-content ; 
+    justify-content: center;
+    z-index : 100 ; 
+}
+
+.dot {
+    margin : 0 7px ; 
+    cursor : pointer ; 
+    color : rgba(180,180,180,0.6) ; 
+    font-size : 37px ; 
+}
+
+.current-dot { 
+    color : white ;
+}
+
+.movies { 
+    position : absolute ; 
+    height : fit-content ; 
+    top: 100% ; 
+    overflow-x: hidden;
+    width : 100% ; 
+}

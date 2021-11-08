@@ -1,0 +1,107 @@
+.login_page { 
+    position : relative ; 
+    width : 100vw ; 
+    height : 100vh ;
+    display: flex ;
+    background-color: #181818;
+}
+
+.login_page_cover {
+    position: absolute;
+    padding : 20px ; 
+    left : 0 ; 
+    display :  grid ; 
+    place-items: center;
+    right : 0 ; 
+    top : 0 ; 
+    bottom : 0 ; 
+}
+
+.logo {
+    display:  flex ;
+    align-items: center;
+    justify-content: center;
+}
+
+.logo > img { 
+    width : 15% ;
+    height : fit-content ; 
+    object-fit: contain; 
+}
+
+.form_div { 
+    position: relative ;
+    border : 1px solid white ; 
+    padding : 30px ;
+    border-radius: 10px ; 
+    width: 34% ;
+    height : fit-content ; 
+}
+
+.login_form {
+    width : 100% ; 
+    height : 100% ;  
+}
+
+.form_email {
+    width : 100% ; 
+    display : flex; 
+    padding : 0 0 17px 0 ;  
+    flex-direction: column;
+}
+
+.form_email--span {
+    color : white ; 
+    padding : 10px 0 ; 
+    font-size: 15px;
+}
+
+.form_email--input {
+    outline : none ;
+    border : none ;
+    font-size: 15px;  
+    font-family : sans-serif ; 
+    font-weight : 500 ; 
+    border-radius: 6px ;
+    padding : 7px 5px ; 
+}
+
+.form_password {
+    font-size: 17px;
+    padding : 0 0 15px 0 ; 
+    width : 100% ; 
+    display: flex ;
+    flex-direction: column;
+}
+
+.form_password--span {
+    color : white ; 
+    padding : 10px 0 ;
+    font-size : 15px ;  
+}
+
+.form_password--input {
+    outline : none ;
+    border : none ;  
+    border-radius: 6px ;
+    padding : 7px 5px  ; 
+}
+
+.form_btn {
+    padding : 10px 0  ; 
+    width : 100% ; 
+}
+
+.form_btn--login {
+    padding : 14px 8px ;
+    border-radius: 4px; 
+    border : none ;
+    outline : none ; 
+    color : white ;
+    font-family: sans-serif;
+    font-size : 14.7px  ;
+    letter-spacing: 0.57px;
+    cursor: pointer;  
+    background-color: #e50914;
+    width : 100% ; 
+}

@@ -1,0 +1,104 @@
+.carousel {
+    position : relative ; 
+    height : fit-content ; 
+    top : 100% ; 
+    width : 100% ; 
+    background-color : #181818 ; 
+}
+
+.carousel_cover {
+    height : fit-content ; 
+    padding : 0px 0 0 0px ;
+    margin-bottom : 30px ;  
+    margin-top : 30px ; 
+}
+
+.carousel_cover__title {
+    font-size : 20px ;
+    font-weight : 600 ; 
+    margin :  0 0px 10px 48px ; 
+    color : white  ; 
+}
+
+.right_overlay {
+  position : absolute  ; 
+  width : 10% ; 
+  height : 100% ; 
+  z-index: 100;
+  right : 0 ; 
+  background : linear-gradient(to left ,#181818 40% ,rgba(24,24,24,0) 100%);
+}
+
+.left_overlay {
+  position : absolute  ; 
+  width : 10% ; 
+  height : 100% ; 
+  z-index: 100;
+  background : linear-gradient(to right ,#181818 30% ,rgba(24,24,24,0) 100%);
+}
+ 
+
+.carousel_track_div { 
+  position : relative  ; 
+  margin-right: 60px ; 
+  width : 100% ; 
+  display : flex ; 
+  height : fit-content ; 
+}
+
+.carousel_track {
+  flex-direction: row;
+  width : 100% ; 
+  display : flex ;
+  height : fit-content ; 
+  list-style : none ;
+  scroll-behavior : smooth ; 
+  overflow-x : scroll ; 
+  z-index : 80 ; 
+  padding : 0 40px 0 40px ;  
+}
+
+.carousel_track > li {
+  cursor : pointer ; 
+  transition: all 250ms ;
+}
+
+.carousel_track > li :hover {
+  transform: scale(1.1);
+}
+
+.carousel_track::-webkit-scrollbar {
+  display: none;
+}
+
+.carousel_track > li {
+  margin : 0 10px ; 
+  cursor : pointer; 
+}
+
+.prev {
+  height : fit-content ; 
+  top : 50% ;
+  border : none ; 
+  color : #e50914 ; 
+  font-size : 20px ; 
+  font-weight : 800 ; 
+  background : transparent ; 
+  left : 10px ; 
+  z-index : 100 ; 
+  position : absolute  ; 
+  cursor : pointer; 
+}
+
+.after {  
+  height : fit-content ;
+  right : 17px ;    
+  top : 50% ;
+  font-size : 20px ; 
+  font-weight : 600 ; 
+  color : #e50914 ; 
+  background : transparent;
+  z-index: 100 ; 
+  position : absolute ; 
+  cursor : pointer; 
+}
