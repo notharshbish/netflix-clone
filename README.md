@@ -1,7 +1,7 @@
 # netflix-clone
 Netflix Clone with Recommendation System
 
-[https://youtu.be/CbPIEyo4prA](url)
+[![netflix-clone](https://img.youtube.com/vi/CbPIEyo4prA/0.jpg)](https://www.youtube.com/watch?v=https://youtu.be/CbPIEyo4prA)
 
 This is MERN Stack Netflix-Clone with Login,Register and Recommendation System.
 
